@@ -3,3 +3,4 @@ spring:
     redis:
       host: config-client-redis
 
+config-source: git.config-client.yaml

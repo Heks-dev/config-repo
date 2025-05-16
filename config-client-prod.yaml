@@ -1,0 +1,6 @@
+spring:
+  data:
+    redis:
+      host: config-client-prod-redis
+
+config-source: git.config-client-prod.yaml

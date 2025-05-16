@@ -14,3 +14,5 @@ spring:
     user: root
     password: root
 
+
+config-source: git.application.yaml

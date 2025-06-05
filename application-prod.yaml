@@ -1,0 +1,18 @@
+spring:
+  data:
+    redis:
+      host: application-redis
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/db?reWriteBatchedInserts=true
+    username: root
+    password: root
+
+  liquibase:
+    url: jdbc:postgresql://localhost:5432/db
+    user: root
+    password: root
+
+
+config-source: git.application-prod.yaml
